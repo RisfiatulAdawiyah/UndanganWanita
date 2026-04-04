@@ -33,12 +33,9 @@ const CoverScreen = ({ onOpen, isVisible, wedding }: CoverScreenProps) => {
             exit={{ scale: 1.1 }}
             transition={{ duration: 1 }}
           >
-            <img
-              src={coverImage}
-              alt="Wedding"
-              className="w-full h-full object-cover"
-              width={1920}
-              height={1280}
+            <div 
+              className="w-full h-full bg-cover bg-center bg-no-repeat"
+              style={{ backgroundImage: `url(${coverImage})` }}
             />
             <div className="absolute inset-0 bg-primary/60 backdrop-blur-sm" />
           </motion.div>
