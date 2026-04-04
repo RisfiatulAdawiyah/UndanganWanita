@@ -1,0 +1,174 @@
+═══════════════════════════════════════════════════════════════
+    CHECKLIST CEPAT DATA UNDANGAN DIGITAL
+═══════════════════════════════════════════════════════════════
+
+📋 DATA YANG HARUS DIKUMPULKAN DARI CLIENT:
+
+┌─────────────────────────────────────────────────────────────┐
+│ 1. DATA MEMPELAI                                            │
+└─────────────────────────────────────────────────────────────┘
+  [ ] Nama panggilan pria
+  [ ] Nama lengkap pria + gelar
+  [ ] Nama ayah pria
+  [ ] Nama ibu pria
+  [ ] Nama panggilan wanita
+  [ ] Nama lengkap wanita + gelar
+  [ ] Nama ayah wanita
+  [ ] Nama ibu wanita
+
+┌─────────────────────────────────────────────────────────────┐
+│ 2. TANGGAL & WAKTU                                          │
+└─────────────────────────────────────────────────────────────┘
+  [ ] Tanggal utama (untuk countdown)
+  [ ] Tanggal akad nikah
+  [ ] Waktu akad nikah (jam mulai - selesai)
+  [ ] Tanggal resepsi
+  [ ] Waktu resepsi (jam mulai - selesai)
+
+┌─────────────────────────────────────────────────────────────┐
+│ 3. LOKASI ACARA                                             │
+└─────────────────────────────────────────────────────────────┘
+  [ ] Nama tempat akad nikah
+  [ ] Alamat lengkap akad nikah
+  [ ] Link Google Maps akad nikah
+  [ ] Nama tempat resepsi
+  [ ] Alamat lengkap resepsi
+  [ ] Link Google Maps resepsi
+
+┌─────────────────────────────────────────────────────────────┐
+│ 4. AYAT AL-QUR'AN & QUOTE (OPSIONAL)                        │
+└─────────────────────────────────────────────────────────────┘
+  [ ] Ayat Al-Qur'an favorit (jika ada preferensi khusus)
+  [ ] Quote favorit (jika ada preferensi khusus)
+  
+  CATATAN: Jika tidak ada, kami yang pilihkan ayat & quote
+           yang sesuai untuk tema pernikahan Islami
+
+┌─────────────────────────────────────────────────────────────┐
+│ 5. CERITA CINTA (LOVE STORY)                                │
+└─────────────────────────────────────────────────────────────┘
+  [ ] Event 1: Tanggal + Judul + Cerita + Icon
+  [ ] Event 2: Tanggal + Judul + Cerita + Icon
+  [ ] Event 3: Tanggal + Judul + Cerita + Icon
+  [ ] Event 4: Tanggal + Judul + Cerita + Icon (opsional)
+  [ ] Event 5: Tanggal + Judul + Cerita + Icon (opsional)
+
+┌─────────────────────────────────────────────────────────────┐
+│ 6. FOTO-FOTO                                                │
+└─────────────────────────────────────────────────────────────┘
+  [ ] 1 Foto Cover (1920x1080px, max 5MB)
+  [ ] 1 Foto Hero (1920x1080px, max 5MB)
+  [ ] 5-15 Foto Gallery (1024x768px, max 5MB/foto)
+  
+  Format: JPG, PNG, WebP
+  Kirim via: Google Drive / Dropbox / WhatsApp / Email
+
+┌─────────────────────────────────────────────────────────────┐
+│ 7. REKENING & HADIAH                                        │
+└─────────────────────────────────────────────────────────────┘
+  [ ] Bank 1: Nama Bank + Nama Pemilik + No. Rekening
+  [ ] Bank 2: Nama Bank + Nama Pemilik + No. Rekening (opsional)
+  [ ] E-Wallet 1: Nama + Pemilik + No. HP (opsional)
+  [ ] E-Wallet 2: Nama + Pemilik + No. HP (opsional)
+  [ ] Wishlist Item 1: Nama + Deskripsi + Link (opsional)
+  [ ] Wishlist Item 2: Nama + Deskripsi + Link (opsional)
+
+┌─────────────────────────────────────────────────────────────┐
+│ 8. DAFTAR TAMU                                              │
+└─────────────────────────────────────────────────────────────┘
+  [ ] File Excel/CSV dengan kolom:
+      - Nama Lengkap
+      - Nomor HP
+      - Alamat
+      - Kategori (Keluarga/Teman/Kantor/Sekolah/Lainnya)
+      - Catatan
+
+┌─────────────────────────────────────────────────────────────┐
+│ 9. PENGATURAN                                               │
+└─────────────────────────────────────────────────────────────┘
+  [ ] Slug URL (contoh: ahmad-siti)
+  [ ] Link musik background (opsional)
+  [ ] Warna tema (opsional)
+
+┌─────────────────────────────────────────────────────────────┐
+│ 10. KONTAK                                                  │
+└─────────────────────────────────────────────────────────────┘
+  [ ] Nama contact person
+  [ ] Nomor WhatsApp
+  [ ] Email
+  [ ] Alamat (jika perlu pengiriman)
+
+═══════════════════════════════════════════════════════════════
+
+📊 RINGKASAN KEBUTUHAN:
+
+WAJIB:
+✓ Data mempelai (8 item)
+✓ Tanggal & waktu (5 item)
+✓ Lokasi acara (6 item)
+✓ Cerita cinta (minimal 3 event)
+✓ Foto cover (1)
+✓ Foto hero (1)
+✓ Foto gallery (minimal 5)
+✓ Rekening bank (minimal 1)
+✓ Slug URL (1)
+
+OPSIONAL:
+○ Ayat Quran favorit (jika tidak, kami pilihkan)
+○ Quote favorit (jika tidak, kami pilihkan)
+○ Event cerita cinta ke-4 dan ke-5
+○ Foto gallery tambahan (6-15)
+○ Bank ke-2
+○ E-wallet
+○ Wishlist hadiah
+○ Daftar tamu
+○ Musik background
+○ Warna tema custom
+
+═══════════════════════════════════════════════════════════════
+
+⏰ TIMELINE PENGERJAAN:
+
+Hari 1-2   : Pengumpulan data dari client
+Hari 3-5   : Pembuatan undangan
+Hari 6-7   : Revisi
+Hari 8     : Finalisasi & publish
+
+Total: 5-8 hari kerja
+
+═══════════════════════════════════════════════════════════════
+
+💡 TIPS UNTUK CLIENT:
+
+1. Siapkan semua data sebelum mulai
+2. Foto harus berkualitas tinggi (tidak blur)
+3. Pastikan data nama dan tanggal sudah benar
+4. Link Google Maps harus bisa dibuka
+5. Rekening bank harus aktif dan benar
+6. Cerita cinta ditulis dengan bahasa yang menarik
+7. Pilih slug URL yang mudah diingat
+
+═══════════════════════════════════════════════════════════════
+
+📞 TEMPLATE PESAN UNTUK CLIENT:
+
+"Halo Kak! Terima kasih sudah order undangan digital. 
+Untuk proses pembuatan, saya butuh data-data berikut:
+
+1. Data mempelai (nama lengkap, orang tua)
+2. Tanggal & waktu acara (akad + resepsi)
+3. Lokasi acara (nama tempat, alamat, Google Maps)
+4. Cerita cinta (3-5 momen penting)
+5. Foto-foto (1 cover, 1 hero, 5-15 gallery)
+6. Rekening untuk hadiah
+7. Daftar tamu (opsional)
+
+Untuk ayat Quran dan quote, kami yang pilihkan ya Kak,
+kecuali kalau ada ayat/quote favorit yang ingin ditampilkan.
+
+Saya sudah kirim formulir lengkapnya via email/WA.
+Mohon diisi ya Kak, estimasi pengerjaan 5-8 hari kerja.
+
+Terima kasih! 😊"
+
+═══════════════════════════════════════════════════════════════

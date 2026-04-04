@@ -1,0 +1,133 @@
+import { motion, useScroll, useTransform } from "framer-motion";
+import islamicPattern from "@/assets/islamic-pattern.png";
+import { Wedding } from "@/types/wedding.types";
+import FloatingParticles from "./FloatingParticles";
+
+interface HeroSectionProps {
+  wedding: Wedding;
+}
+
+const HeroSection = ({ wedding }: HeroSectionProps) => {
+  const { scrollY } = useScroll();
+  const y = useTransform(scrollY, [0, 500], [0, 150]);
+  const opacity = useTransform(scrollY, [0, 300], [1, 0]);
+  
+  const weddingDate = new Date(wedding.wedding_date);
+  const formattedDate = weddingDate.toLocaleDateString('en-US', { 
+    weekday: 'long', 
+    year: 'numeric', 
+    month: 'long', 
+    day: 'numeric' 
+  });
+  
+  const venue = wedding.resepsi_venue || wedding.akad_venue || 'Wedding Venue';
+  const address = wedding.resepsi_address || wedding.akad_address || '';
+  return (
+    <section className="relative min-h-screen flex items-center justify-center section-spacing overflow-hidden bg-batik-pattern bg-batik-ornament" style={{ '--bg-color': '#1a5f4f' } as React.CSSProperties}>
+      {/* Floating particles effect */}
+      <FloatingParticles />
+      
+      {/* Batik pattern border top */}
+      <div className="absolute top-0 left-0 right-0 batik-border-top" />
+      
+      {/* Batik pattern border bottom */}
+      <div className="absolute bottom-0 left-0 right-0 batik-border-top" />
+      
+      {/* Decorative pattern */}
+      <img
+        src={islamicPattern}
+        alt=""
+        className="absolute top-0 left-1/2 -translate-x-1/2 w-[700px] opacity-[0.08] pointer-events-none animate-float"
+        style={{ filter: 'brightness(0.6) sepia(0.8) hue-rotate(10deg) saturate(1.5)' }}
+        loading="lazy"
+        width={800}
+        height={800}
+      />
+
+      <div className="relative z-10 text-center max-w-3xl mx-auto">
+        <motion.p
+          className="font-arabic text-lg text-accent mb-6"
+          initial={{ opacity: 0, scale: 0.8 }}
+          whileInView={{ opacity: 1, scale: 1 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.8, ease: "easeOut" }}
+          style={{ opacity }}
+        >
+          بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ
+        </motion.p>
+
+        <motion.p
+          className="font-body text-xs tracking-[0.15em] uppercase text-muted-foreground mb-8"
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ delay: 0.2, duration: 0.6 }}
+          style={{ opacity }}
+        >
+          Kami mengundang Anda untuk merayakan
+        </motion.p>
+
+        <motion.h2
+          className="font-display text-5xl md:text-7xl text-foreground mb-2 text-gradient-gold"
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ delay: 0.4, duration: 0.8, type: "spring", stiffness: 100 }}
+        >
+          {wedding.groom_name}
+        </motion.h2>
+
+        <motion.div
+          className="flex items-center justify-center gap-6 my-6"
+          initial={{ opacity: 0, scale: 0 }}
+          whileInView={{ opacity: 1, scale: 1 }}
+          viewport={{ once: true }}
+          transition={{ delay: 0.6, duration: 0.6, type: "spring", stiffness: 200 }}
+        >
+          <span className="font-display text-5xl text-glow-gold italic animate-smoothBounce">&</span>
+        </motion.div>
+
+        <motion.h2
+          className="font-display text-5xl md:text-7xl text-foreground mb-10 text-gradient-gold"
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ delay: 0.5, duration: 0.8, type: "spring", stiffness: 100 }}
+        >
+          {wedding.bride_name}
+        </motion.h2>
+
+        <motion.div
+          className="space-y-2"
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          viewport={{ once: true }}
+          transition={{ delay: 0.8, duration: 0.6 }}
+          style={{ opacity }}
+        >
+          <p className="font-body text-muted-foreground text-sm tracking-wider">
+            {formattedDate}
+          </p>
+          {venue && (
+            <p className="font-body text-muted-foreground/70 text-sm">
+              {venue}{address && `, ${address.split(',')[0]}`}
+            </p>
+          )}
+        </motion.div>
+      </div>
+
+      {/* Bottom decoration with gold tint */}
+      <img
+        src={islamicPattern}
+        alt=""
+        className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[700px] opacity-[0.06] pointer-events-none rotate-180 animate-float-delayed"
+        style={{ filter: 'brightness(0.3) sepia(1) hue-rotate(10deg) saturate(3)' }}
+        loading="lazy"
+        width={800}
+        height={800}
+      />
+    </section>
+  );
+};
+
+export default HeroSection;
