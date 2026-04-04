@@ -75,10 +75,10 @@ const CountdownTimer = ({ weddingDate }: CountdownTimerProps) => {
               viewport={{ once: true }}
               transition={{ delay: i * 0.12, duration: 0.6 }}
             >
-              <div className="glass-card rounded-2xl p-5 md:p-8 smooth-transition hover-lift overflow-hidden">
+              <div className="glass-card rounded-2xl p-5 md:p-8 smooth-transition hover-lift overflow-hidden flex flex-col items-center justify-center">
                 <AnimatePresence mode="wait">
                   <motion.span
-                    className="font-display text-3xl md:text-5xl lg:text-6xl text-foreground block"
+                    className="font-display text-3xl md:text-5xl lg:text-6xl text-foreground block text-center"
                     key={unit.value}
                     initial={{ y: -20, opacity: 0 }}
                     animate={{ y: 0, opacity: 1 }}
@@ -89,7 +89,7 @@ const CountdownTimer = ({ weddingDate }: CountdownTimerProps) => {
                   </motion.span>
                 </AnimatePresence>
                 <div className="w-6 h-px bg-accent/40 mx-auto mt-3 mb-2" />
-                <span className="font-body text-[9px] md:text-xs tracking-[0.25em] uppercase text-muted-foreground block">
+                <span className="font-body text-[9px] md:text-xs tracking-[0.25em] uppercase text-muted-foreground block text-center">
                   {unit.label}
                 </span>
               </div>
