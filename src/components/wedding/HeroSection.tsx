@@ -23,7 +23,7 @@ const HeroSection = ({ wedding }: HeroSectionProps) => {
   const venue = wedding.resepsi_venue || wedding.akad_venue || 'Wedding Venue';
   const address = wedding.resepsi_address || wedding.akad_address || '';
   return (
-    <section className="relative min-h-screen flex items-center justify-center section-spacing overflow-hidden bg-batik-pattern bg-batik-ornament" style={{ '--bg-color': '#1a5f4f' } as React.CSSProperties}>
+    <section className="relative min-h-screen flex items-center justify-center py-12 md:py-20 px-4 overflow-hidden bg-batik-pattern bg-batik-ornament" style={{ '--bg-color': '#1a5f4f' } as React.CSSProperties}>
       {/* Floating particles effect */}
       <FloatingParticles />
       
@@ -44,9 +44,9 @@ const HeroSection = ({ wedding }: HeroSectionProps) => {
         height={800}
       />
 
-      <div className="relative z-10 text-center max-w-3xl mx-auto">
+      <div className="relative z-10 text-center max-w-3xl mx-auto px-4">
         <motion.p
-          className="font-arabic text-lg text-accent mb-6 drop-shadow-[0_2px_8px_rgba(212,175,55,0.4)]"
+          className="font-arabic text-lg text-accent mb-4 drop-shadow-[0_2px_8px_rgba(212,175,55,0.4)]"
           initial={{ opacity: 0, scale: 0.8 }}
           whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: true }}
@@ -57,7 +57,7 @@ const HeroSection = ({ wedding }: HeroSectionProps) => {
         </motion.p>
 
         <motion.p
-          className="font-body text-xs tracking-[0.15em] uppercase text-muted-foreground mb-8 drop-shadow-sm"
+          className="font-body text-xs tracking-[0.15em] uppercase text-muted-foreground mb-6 drop-shadow-sm"
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
@@ -79,7 +79,7 @@ const HeroSection = ({ wedding }: HeroSectionProps) => {
         </motion.h2>
 
         <motion.div
-          className="flex items-center justify-center gap-6 my-6"
+          className="flex items-center justify-center gap-6 my-4"
           initial={{ opacity: 0, scale: 0 }}
           whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: true }}
@@ -102,7 +102,7 @@ const HeroSection = ({ wedding }: HeroSectionProps) => {
         </motion.div>
 
         <motion.h2
-          className="font-display text-5xl md:text-7xl text-foreground mb-10 text-gradient-gold drop-shadow-[0_4px_12px_rgba(212,175,55,0.3)]"
+          className="font-display text-5xl md:text-7xl text-foreground mb-6 text-gradient-gold drop-shadow-[0_4px_12px_rgba(212,175,55,0.3)]"
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
