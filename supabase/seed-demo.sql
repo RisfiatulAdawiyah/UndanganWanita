@@ -46,14 +46,14 @@ INSERT INTO weddings (
   'b2d6e798-ebc4-478d-a69c-7a9655749bdc',
   'b2d6e798-ebc4-478d-a69c-7a9655749bdc',
   'demo',
-  'Ahmad',
-  'Ahmad bin Abdullah',
-  'Mr. Abdullah',
-  'Mrs. Aminah',
-  'Fatimah',
-  'Fatimah binti Ibrahim',
-  'Mr. Ibrahim',
-  'Mrs. Khadijah',
+  'Indra',
+  'Indra Putra Pratama',
+  'Mr. Budi Santoso',
+  'Mrs. Siti Rahayu',
+  'Indah',
+  'Indah Permata Sari',
+  'Mr. Agus Wijaya',
+  'Mrs. Dewi Lestari',
   '2025-11-15',
   '2025-11-15 10:00:00+07',
   NULL,
@@ -88,9 +88,9 @@ INSERT INTO love_stories (wedding_id, date, title, description, icon, order_inde
 
 -- Insert gift registry
 INSERT INTO gift_registry (wedding_id, type, account_name, account_number, bank_name, order_index) VALUES
-('b2d6e798-ebc4-478d-a69c-7a9655749bdc', 'bank', 'Ahmad bin Abdullah', '1234567890', 'BCA', 0),
-('b2d6e798-ebc4-478d-a69c-7a9655749bdc', 'bank', 'Fatimah binti Ibrahim', '0987654321', 'Mandiri', 1),
-('b2d6e798-ebc4-478d-a69c-7a9655749bdc', 'ewallet', 'Ahmad', '081234567890', 'GoPay', 2),
+('b2d6e798-ebc4-478d-a69c-7a9655749bdc', 'bank', 'Indra Putra Pratama', '1234567890', 'BCA', 0),
+('b2d6e798-ebc4-478d-a69c-7a9655749bdc', 'bank', 'Indah Permata Sari', '0987654321', 'Mandiri', 1),
+('b2d6e798-ebc4-478d-a69c-7a9655749bdc', 'ewallet', 'Indra', '081234567890', 'GoPay', 2),
 ('b2d6e798-ebc4-478d-a69c-7a9655749bdc', 'gift_item', NULL, NULL, NULL, 3);
 
 -- Update gift item details
