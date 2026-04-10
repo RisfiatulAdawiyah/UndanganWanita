@@ -12,7 +12,6 @@ import ActionButtons from "@/components/wedding/ActionButtons";
 // Lazy load components yang tidak immediately visible
 const QuranVerse = lazy(() => import("@/components/wedding/QuranVerse"));
 const LoveStoryTimeline = lazy(() => import("@/components/wedding/LoveStoryTimeline"));
-const PhotoGallery = lazy(() => import("@/components/wedding/PhotoGallery"));
 const EventDetails = lazy(() => import("@/components/wedding/EventDetails"));
 const GiftRegistrySection = lazy(() => import("@/components/wedding/GiftRegistrySection"));
 const QuoteSection = lazy(() => import("@/components/wedding/QuoteSection"));
@@ -100,10 +99,6 @@ const Wedding = () => {
                 <LoveStoryTimeline weddingId={wedding.id} />
               </Suspense>
             </div>
-            
-            <Suspense fallback={<SectionLoader />}>
-              <PhotoGallery weddingId={wedding.id} />
-            </Suspense>
             
             <div id="event">
               <Suspense fallback={<SectionLoader />}>
