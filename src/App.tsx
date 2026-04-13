@@ -7,6 +7,7 @@ import Index from "./pages/Index.tsx";
 import Wedding from "./pages/Wedding.tsx";
 import Login from "./pages/Login.tsx";
 import NotFound from "./pages/NotFound.tsx";
+import RSVPView from "./pages/RSVPView.tsx";
 import ProtectedRoute from "./components/admin/ProtectedRoute.tsx";
 import AdminLayout from "./components/admin/AdminLayout.tsx";
 import Dashboard from "./pages/admin/Dashboard.tsx";
@@ -39,6 +40,7 @@ const App = () => (
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/undangan/:slug" element={<Wedding />} />
+          <Route path="/rsvp-view" element={<RSVPView />} />
           <Route path="/login" element={<Login />} />
           
           {/* Admin Routes */}
